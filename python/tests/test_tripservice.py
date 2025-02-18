@@ -1,5 +1,5 @@
 import pytest
-from tripservice import (
+from tripservice.tripservice import (
     Trip, User, TestUserSession, 
     TestTripRepository, TripService,
     UserNotLoggedInException

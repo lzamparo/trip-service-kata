@@ -1,7 +1,7 @@
 [project]
-name = "python"
+name = "trip-scheduler kata python"
 version = "0.1.0"
-description = "Add your description here"
+description = "Refactoring kata"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -14,5 +14,5 @@ addopts = [
     "--import-mode=importlib",
 ]
 pythonpath = [
-  "."
+  "./src"
 ]
